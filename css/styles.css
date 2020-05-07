@@ -1,29 +1,47 @@
-body{
+body {
     margin: 0;
     padding: 0;
 }
-.catImage{
 
-    width: 200px;
-
-    padding-top: 10px;
-    padding-right: 20px;
-    padding-bottom: 30px;
-    padding-left: 40px;
-
-    border-color: blue;
-    border-width: 8px;
-    border-style: solid;
-
-    margin-top: 40px;
-    margin-right: 50px;
-    margin-bottom: 60px;
-    margin-left: 70px;
+.imageWrapper {
+    border: 10px solid darkviolet;
+    display: inline-block;
+    font-size: 0;
+    height: 500px;
+    overflow: auto;
+    /*overflow-x: ;
+    overflow-y: ;*/
+    width: 400px;
 }
 
-div{
-    border-width: 8px;
-    border-color: blue;
-    border-style: solid;
-}
+.catImage {
+    display: inline;
+    width: 700px;
+    height: 400px;
+    /*  padding-top: 10px;
+      padding-right: 20px;
+      padding-bottom: 30px;
+      padding-left: 40px;*/
+    /* padding: 10px 20px 30px 40px;
+     padding: 50px;
+     padding: 20px 40px;
+     padding: 20px 40px 30px;*/
+    /*padding: 20px 0 30px;*/
 
+    border: 10px solid #00f;
+
+    /*    border-top-left-radius: 30px;
+        border-top-right-radius: 160px;
+        border-bottom-right-radius: 74px;
+        border-bottom-left-radius: 53.67px;*/
+
+    /* border-bottom: 40px solid red;
+     border-bottom-width: 40px;
+     border-bottom-style: dotted;
+     border-bottom-color: red;*/
+    /*border-top-width: ;
+    border-bottom-width: ;
+    border-right-width: ;
+    border-left-width: ;*/
+
+}
