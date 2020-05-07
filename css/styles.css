@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.catImage{
+
+    width: 200px;
+
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+
+    border-color: blue;
+    border-width: 8px;
+    border-style: solid;
+
+    margin-top: 40px;
+    margin-right: 50px;
+    margin-bottom: 60px;
+    margin-left: 70px;
+}
+
+div{
+    border-width: 8px;
+    border-color: blue;
+    border-style: solid;
+}
+
